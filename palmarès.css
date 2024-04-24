@@ -1,0 +1,249 @@
+@font-face {
+    font-family: "Tahu Regular";
+    src: url("./fonts/tahu-webfont.woff") format("woff2");
+    src: url("./fonts/tahu-webfont.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    text-align: center;
+    color: #414148;
+}
+
+a {
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    font-size: x-large;
+    background-color: #008080;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: white;
+}
+
+.menu a:hover {
+    color: #e1e6d5;
+}
+
+.Champion2 :hover {
+    color: #e1e6d5;
+} 
+
+.Champion {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+.Champion2 {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+
+
+.fond1 {
+    background: white;
+    height: 150px;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab1 {
+    font-size: 35px;
+    text-align: center;
+    width: 40%;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+    padding:10px;
+    background: #008080;
+    color: white;
+}
+
+.tab1:hover {
+    color: #e1e6d5;
+}
+
+
+.soustitre {
+    width: 100%;
+    font-size: 25px;
+    position: static;
+	text-align: center;
+    color:black;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border: 1px solid black;
+    
+    padding: 5px;
+    background: white;
+}
+
+
+.top1{
+    background: gold;
+    width: 10%;
+    text-align: center;
+}
+
+.coltop1{
+    background: rgb(255, 255, 109);
+    text-align: center;
+}
+
+.top2{
+    background: gray;
+    width: 10%;
+    text-align: center;
+}
+
+.coltop2{
+    background: rgb(185, 184, 184);
+    text-align: center;
+}
+
+.top3{
+    background: #cc9966;
+    width: 10%;
+    text-align: center;
+}
+
+.coltop3{
+    background: #FFDAB9;
+    text-align: center;
+}
+
+.tittotattab1 {
+    width: 10%;
+    background: #e6e4e4;
+    text-align: center;
+}
+
+
+.totattab1 {
+    width: 10%;
+    background: white;
+    text-align: center;
+}
+
+.rang1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.colrang1 {
+    background: white;
+    text-align: center;
+}
+
+.athlète1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.colathlète1 {
+    background: white;
+    text-align: center;
+}
+
+.nation1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.colnation1 {
+    background: white;
+    text-align: center;
+}
+
+.de1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.colde1 {
+    background: white;
+    text-align: center;
+}
+
+.a1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.cola1 {
+    background: white;
+    text-align: center;
+}
+
+
+.edi1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.coledi1 {
+    background: white;
+    text-align: center;
+   
+}
+
+.epreuve1 {
+    background: #e6e4e4;
+    text-align: center;
+}
+
+.colepreuve1 {
+    background: white;
+    text-align: center;
+   
+}
+
+.imagechampbolt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:black;
+    border-radius:5px;
+}
+
+.imagechampfr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:black;
+    border-radius:5px;
+}

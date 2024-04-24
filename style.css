@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Tahu Regular";
+    src: url("./fonts/tahu-webfont.woff") format("woff2");
+    src: url("./fonts/tahu-webfont.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gt {
+    position: static;
+	text-align: center;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+
+
+}
+
+.header {
+    text-align: center;
+    color: #414148;
+}
+
+a {
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    font-size: large;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: white;
+}
+
+.menu a:hover {
+    color: #e1e6d5;
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagepiste {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Introduction {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+.paraIntroduction {
+    color: black;
+    font-size: 25px;
+    background-color: #e1e6d5;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+    padding: 2px;
+    
+}
+
+.Video {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+#video1
+{
+    border: 2px solid black; 
+    display:block; width:756px; height:544px; margin:0 auto 35px auto
+}
+
+.Dateclé {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+
+.Motclé {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+
+.fond2 {
+    background: white;
+}
+
+
+  h1 {
+    color: black;
+    text-align: center;  
+  }
+
+
+  
+  .col {
+    background: #D8DAD3;
+  }
+
+  .table th, .ecolo-table td {
+    padding: 15px 20px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #e1e6d5;
+}
+
+.table {
+    border: solid;
+    margin: 0 auto;
+}
+

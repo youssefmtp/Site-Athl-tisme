@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Tahu Regular";
+    src: url("./fonts/tahu-webfont.woff") format("woff2");
+    src: url("./fonts/tahu-webfont.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    text-align: center;
+    color: #414148;
+}
+
+a {
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+    font-size: x-large;
+    background-color: #008080;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: white;
+}
+
+.menu a:hover {
+    color: #e1e6d5;
+}
+
+.Règle {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+.soustitre {
+    width: 100%;
+    font-size: 25px;
+    position: static;
+	text-align: center;
+    color:black;
+}
+
+
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titreregles {
+    width: 100%;
+    font-size: 50px;
+    position: static;
+	text-align: center;
+    color:#008080;
+}
+
+.imagegauche {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 35%;
+    height: 380px;
+    }
+
+
+
+    .imagedroite {
+        float: right;
+        margin: 0 15px 15px 0;
+        width: 35%;
+    }
+
+ 
+
+    .fondimage {
+    border-style:solid;
+    border-color:black;
+    border-radius:20px;
+    position: relative;
+    background-color: #e1e6d5;
+}
+
+
+    
+    .fond1 {
+        background: white;
+        height: 150px;
+        border-width:1px;
+        border-style:solid;
+        border-color:black;
+        border-radius:5px;
+    }
+    .taillepara {
+        font-size: 20px;
+    }
+    .taillepara2 {
+        font-size: 20px;
+    }
+    .taillepara3 {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .imagegauche2 {
+        float: left;
+        margin: 0 15px 15px 0;
+        width: 45%;
+        }
+
+    

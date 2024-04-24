@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="shortcut icon" href="img/logon.jpg" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+
+<!-- contenu du site-->
+<body>
+
+    <!-- formulaire d'incription-->
+    
+
+        <header class="container-fluid header">
+            <div class="container">
+                <h1 class="display-4 grand-titre"> Formulaire d'inscription</h1>
+                <nav class="menu">
+                    <a href="index.html">Accueil</a>
+                    <a href="règles.html">Règles</a>
+                    <a href="palmarès.html">Palmarès </a> 
+                    <a href="#">Formulaire d'inscription</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container-fluid positionnement">
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-12">              
+
+                        <!-- Saisie des informations formulaire-->
+                        <form name="form_inscription">  
+                            <!-- Champ de saisie nom du nouvel adhérant-->
+                            <section class="container-fluid nom-saisie">
+                                <div class="form-group">
+                                    <label for="nom">Nom : </label>
+                                    <input type="text" id="nom" name="nom" size="30" placeholder="Nom du nouvel adhérant"> 
+                                    <span id="msgFormNom">Message nom</span> 
+                                </div>
+                            </section>
+                            <!-- Fin Champ de saisie nom du nouvel adhérant-->
+
+                            <!-- Champ de saisie prenom du nouvel adhérant-->
+                            <section class="container-fluid prenom-saisie">
+                                <div class="form-group">
+                                    <label for="prenom" class="col-form-label">Prénom : </label>
+                                    <input type="text" id="prenom" name="prenom" size="30" placeholder="Prénom du nouvel adhérant">
+                                </div>
+                            </section>
+                            <!-- Fin Champ de saisie prenom du nouvel adhérant-->
+
+                            <!-- Civilité -->
+                            <section class="container-fluid civiliter-choix">
+                                <div>
+                                    <label for="genre-adhérant" >Genre : </label>
+                                    <input type="radio" id="genreH" name="genre" value="H">
+                                    <label for="genreH">Homme</label>
+                                    <input type="radio" id="genreF" name="genre" value="F">
+                                    <label for="genreF" >Femme</label>
+                                </div>
+                            </section>
+                            <!-- Fin Civilité -->
+
+                            <!-- Sélection nationalité-->
+                            <section class="container-fluid nationalite">
+                                <label for="nationalite-select">Nationalité :</label>
+                                <select name="nationalte" id="nationalite-select">
+                                    <option value="">Aucun</option>
+                                    <option value="france">Français</option>
+                                    <option value="espagne">Espagnol</option>
+                                    <option value="italie">Italien</option>
+                                    <option value="suisse">Suisse</option>
+                                    <option value="belgique">Belge</option>
+                                </select>
+                            </section>
+                            <!-- Fin Sélection nationalité-->
+
+                            <!-- Saisie du mot de passe / Confirmation-->
+
+
+                            <!-- Champ de saisie email-->
+                            <section class="container-fluid email">
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">Adresse mail : </label>
+                                    <input type="mail" id="email" size="30" placeholder="Adresse mail">
+                                </div>
+                            </section>
+                            <!-- Fin Champ de saisie email--> 
+
+                            <!-- Champ de saisie mot de passe-->
+                            <section class="container-fluid mdp-saisie">
+                                <div class="form-group">
+                                    <label for="mdp-adherant" class="col-form-label">Mot de passe : </label>
+                                    <input type="password" id="mdp-adherant" size="30" placeholder="Mot de passe">
+                                    <p>(Doit contenir minimum 8 caractères, dont une majuscule, une miniscule, une chiffre et un caractère spéciale (@, %, /))</p>
+                                </div>
+                            </section>
+                            <!-- Fin Champ de saisie mot de passe-->
+
+                            <!-- Champ de saisie confirmation du mot de passe-->
+                            <section class="container-fluid confirmation-mdp">
+                                <div class="form-group">
+                                    <label for="confirmation-mdp" class="col-form-label">Confirmation du mot de passe : </label>
+                                    <input type="password" id="confirmation-mdp" size="30" placeholder="Confirmation du mot de passe">
+                                </div>
+                            </section>
+                            <!-- Fin Champ de saisie confirmation du mot de passe-->
+                            
+                            <!-- Fin Saisie du mot de passe / Confirmation-->
+
+
+                               
+
+                            <!-- Champ de saisie des centres d'interets-->
+
+                            <section class="container-fluid interet">
+                                <p >Centre(s) d'intérêt(s) (minimum 2 choix) :</p>
+                                <div class="container">
+                                    <input type="checkbox" id="centre-informatique" name="centre-informatique">
+                                    <label for="centre-informatique">Informatique</label>
+                                    <input type="checkbox" id="centre-sport" name="centre-sport">
+                                    <label for="centre-sport">Sport</label>
+                                    <input type="checkbox" id="centre-cinema" name="centre-cinema">
+                                    <label for="centre-cinema">Cinéma</label>
+                                </div>
+                                
+                                <div class="container" >
+                                    <input type="checkbox" id="centre-musique" name="centre-musique">
+                                    <label for="centre-musique">Musique</label>
+                                    <input type="checkbox" id="centre-photographie" name="centre-photographie">
+                                    <label for="centre-photographie">Photographie</label>
+                                    <input type="checkbox" id="centre-lecture" name="centre-lecture">
+                                    <label for="centre-lecture">Lecture</label>
+                                </div>
+                            </section>
+
+                            
+                            <!-- Fin Champ de saisie des centres d'interets-->
+
+                            <!-- Fin Saisie des informations-->
+
+                            <!-- Boutons Annuler / Valider -->
+                            <br> 
+                            <section class="container-fluid bouton-valider-annuler">
+                                <div>
+                                    <button type="reset"> Annuler</button>
+                                    <button id="envoyer">Valider</button>
+                                </div>
+                            </section>
+                            <!-- Fin Boutons Annuler / Valider -->
+                        </form>  
+                    </article>
+                </div>
+            </div>
+        </div>
+    
+                    
+    
+ 
+        
+    <!-- Ficher javascript -->
+    <script type="text/javascript" src="./js/formulaire.js"></script>
+</body>
+</html>
+
